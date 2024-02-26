@@ -10,7 +10,7 @@ transformers[sentencepiece]==4.35.2
 accelerate==0.26.1
 ```
 
-## Inferrence
+## Inference
 
 ```python
 # Use a pipeline as a high-level helper
