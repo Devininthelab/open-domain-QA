@@ -20,6 +20,7 @@ PIPELINE_NAME = 'question-answering'
 MODEL_NAME = 'winvswon78/distilbert-finetuned-squadv2'
 pipe = pipeline(PIPELINE_NAME, model=MODEL_NAME)
 
+#Example
 INPUT_QUESTION = 'Where is the cat?'
 INPUT_CONTEXT = 'The cat sits under the table, trying to catch a mouse.'
 pipe(question=INPUT_QUESTION, context=INPUT_CONTEXT)
